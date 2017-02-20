@@ -1,6 +1,3 @@
-﻿konda
+﻿Sandeep Edara
 =====
-
-konda's blog
-
-http://onepagelove.com/gallery/personal/page/3
+Code for personal website.
