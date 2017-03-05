@@ -1,0 +1,103 @@
+{
+    "data": [{
+        "name": "mahabalipuram",
+        "coordinates": [80.196341, 12.628217]
+    },
+    {
+        "name": "chennai",
+        "coordinates": [80.278299, 13.071190]
+    },
+    {
+        "name": "madurai",
+        "coordinates": [78.1922698, 9.935231]
+    }, {
+        "name": "Dindigul",
+        "coordinates":[78.018945, 10.355694]
+    }, {
+        "name": "rameshwaram & Dhanushkodi",
+        "coordinates": [79.443221, 9.155702]
+    }, {
+        "name": "kanyakumari",
+        "coordinates": [77.539911, 8.096112]
+    }, {
+        "name": "sivakasi",
+        "coordinates": [77.799723, 9.468871]
+    }, {
+        "name": "periyar",
+        "coordinates": [77.225706, 9.434820]
+    },
+    {
+        "name": "alleppy",
+        "coordinates": [76.332833, 9.520330]
+    },{
+        "name": "kochi",
+        "coordinates": [76.271893, 9.949056]
+    },{
+        "name": "munnar",
+        "coordinates": [77.070036, 10.090799]
+    },
+    {
+        "name": "ooty & Kodaikanal",
+        "coordinates": [76.690790, 11.429310]
+    },{
+        "name": "coonoor",
+        "coordinates": [76.827487, 11.363674]
+    },{
+        "name": "mysuru",
+        "coordinates": [76.631637, 12.375638]
+    },{
+        "name": "tirupati",
+        "coordinates": [79.489749, 13.634967]
+    },{
+        "name": "tirupati",
+        "coordinates": [79.489749, 13.634967]
+    },
+    {
+        "name": "vijaywada",
+        "coordinates": [80.645832, 16.501353]
+    },
+    {
+        "name": "vijaywada",
+        "coordinates": [80.645832, 16.501353]
+    },
+    {
+        "name": "rajahmundry",
+        "coordinates": [81.804982, 16.984660]
+    },
+    {
+        "name": "hyderabad",
+        "coordinates": [78.551484, 17.391367]
+    },
+    {
+        "name": "belum and Gandikota",
+        "coordinates": [78.102154, 15.102196]
+    },
+    {
+        "name": "goa",
+        "coordinates": [73.957056, 15.396081]
+    },
+    {
+        "name": "badami, Aihole , Pattadakal",
+        "coordinates": [75.690767, 15.916039]
+    },
+    {
+        "name": "hampi",
+        "coordinates": [76.460867, 15.334266]
+    },
+    {
+        "name": "coorg",
+        "coordinates": [75.727346, 12.386436]
+    },
+    {
+        "name": "jog Falls",
+        "coordinates": [75.560423, 13.939371]
+    },
+    {
+        "name": "lepakshi",
+        "coordinates": [77.603388, 13.803012]
+    },
+    {
+        "name": "wayanad",
+        "coordinates": [76.096776, 11.726226]
+    }]
+}
