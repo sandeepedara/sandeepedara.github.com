@@ -81,6 +81,8 @@
             </section>
         </div>
     </div>
+
+
     <footer>
     </footer>
     <script src="./scripts/landing.min.js"></script>
@@ -131,7 +133,6 @@
 
 
             var g = svg.append("g");
-
 
             var cityWrapper = svg.append("g")
                 .attr("class", "cityWrapper")
@@ -207,6 +208,8 @@
                             return d.name;
                         });
 
+                    d3.selectAll(".stateLabels").remove();
+
                     svg.call(tip);
 
                     d3.selectAll(".cityCover")
@@ -225,6 +228,7 @@
                         .style("opacity", 1)
                         .on("mouseover", tip.show)
                         .on("mouseout", tip.hide);
+                        
 
                     d3.selectAll(".cityCover")
                         .transition().delay(500).duration(2000)
@@ -245,16 +249,15 @@
                             return d.y = projection(d.coordinates)[1];
                         })
 
-
                     d3.selectAll(".cities")
                         .transition("dim").duration(2000).delay(4000)
-                        .style("opacity", 0.8);
+                        .style("opacity", 0.8);                        
 
                     svg.append("text")
                         .attr("class", "svgHeader")
-                        .attr("x", 350)
+                        .attr("x", 340)
                         .attr("y", 250)
-                        .text("Places which have captivated me..");
+                        .text("Some of the rides which I cherished..");
 
                     d3.selectAll(".blurValues")
                         .transition().duration(4000)

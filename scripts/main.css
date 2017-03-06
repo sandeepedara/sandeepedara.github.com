@@ -60,18 +60,20 @@ template {
 .stateLabels {
     font-family: 'Lora', helvetica neue, helvetica, arial, sans-serif;
     font-size: 14px;
-    fill:#574c73
+    fill: #574c73
 }
 
 .d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: #574c73;
-  color: #fff;
-  border-radius: 2px;
+    line-height: 1;
+    font-weight: bold;
+    padding: 8px;
+    background: #574c73;
+    color: #fff;
+    border-radius: 2px;
+    z-index: 10;
+    font-family: 'Lora', helvetica neue, helvetica, arial, sans-serif;
+    font-size: 14px;
 }
-
 
 a {
     background-color: transparent
