@@ -7,14 +7,16 @@
     <meta name="keywords" content="Sandeep Edara">
     <meta name="author" content="Sandeep Edara">
     <title>Sandeep Edara</title>
+    
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" href="./scripts/main.css">
 
     <script src="./scripts/modernizr.min.js"></script>
-
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="./scripts/d3.v3.min.js"></script>
     <script src="./scripts/d3-tip.js"></script>
+    <script src="./data/map.js"></script>
+
 </head>
 
 <body class="landing">
@@ -87,16 +89,6 @@
     </footer>
     <script src="./scripts/landing.min.js"></script>
     <script>
-        var INDIA_DATA = "";
-
-        d3.json("./data/IND1.geojson", function (error, data) {
-            if (error) {
-                console.log(error);
-            }
-            INDIA_DATA = data;
-        })
-    </script>
-    <script>
         $("#show-map").click(function () {
             var width = 650,
                 height = 700;
@@ -149,7 +141,7 @@
 
 
             g.selectAll("path")
-                .data(INDIA_DATA.features)
+                .data(indmap.features)
                 .enter()
                 .append("path")
                 .attr("fill", "#726496")
@@ -228,7 +220,7 @@
                         .style("opacity", 1)
                         .on("mouseover", tip.show)
                         .on("mouseout", tip.hide);
-                        
+
 
                     d3.selectAll(".cityCover")
                         .transition().delay(500).duration(2000)
@@ -251,7 +243,7 @@
 
                     d3.selectAll(".cities")
                         .transition("dim").duration(2000).delay(4000)
-                        .style("opacity", 0.8);                        
+                        .style("opacity", 0.8);
 
                     svg.append("text")
                         .attr("class", "svgHeader")
